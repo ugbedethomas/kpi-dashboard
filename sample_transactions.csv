@@ -1,0 +1,6 @@
+date,order_id,product,category,qty,unit_price,currency
+2025-01-03,ORD-1001,Business Cards,Print,2,15000,NGN
+2025-01-05,ORD-1002,Letterhead,Print,1,25000,NGN
+2025-02-01,ORD-1003,CCTV Camera,Electronics,1,120000,NGN
+2025-02-10,ORD-1004,Website UI Design,Digital,1,300000,NGN
+2025-03-01,ORD-1005,Flyers,Print,5,2000,NGN

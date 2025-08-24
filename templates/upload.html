@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Upload Data{% endblock %}
+{% block content %}
+<div class="bg-white p-6 rounded-2xl shadow">
+  <h2 class="text-lg font-semibold mb-2">Upload CSV or Excel</h2>
+  <p class="text-sm text-gray-500 mb-4">
+    Required: date, order_id, product, qty, unit_price. Optional: category, currency.
+  </p>
+  <form method="post" enctype="multipart/form-data" class="space-y-3">
+    {% csrf_token %}
+    <input type="file" name="file" accept=".csv,.xlsx" class="block w-full" required />
+    <button class="px-4 py-2 rounded bg-gray-900 text-white">Upload</button>
+  </form>
+</div>
+{% endblock %}
